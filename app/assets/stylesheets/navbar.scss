@@ -1,0 +1,40 @@
+.navbar {
+  height: 70px;
+  background-color: #5fa8d3;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar-logo {
+  display: flex;
+  align-items: center;
+}
+
+.navbar ul {
+  list-style-type: none;
+  display: flex;
+}
+
+.navbar a{
+  padding: 0 8px;
+  color: white;
+  text-decoration: none; 
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+}
+
+
+.boat {
+  margin: 0;
+  font-size: 3em;
+}
+
+.navbar:hover {
+  padding-right: 1500px;
+  -webkit-transition-duration: 10s;
+}
+
